@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RecycleViewCustom">
+
+        <attr name="rv_span_count" format="integer"/>
+
+        <attr name="is_swipe_refresh_layout" format="boolean"/>
+
+        <attr name="is_load_more" format="boolean"/>
+
+        <attr name="set_layout_manager" format="enum">
+            <enum name="LinearLayoutManager" value="1"/>
+            <enum name="GridLayoutManager" value="2"/>
+            <enum name="StaggeredGridLayoutManager" value="3"/>
+        </attr>
+    </declare-styleable>
+</resources>
