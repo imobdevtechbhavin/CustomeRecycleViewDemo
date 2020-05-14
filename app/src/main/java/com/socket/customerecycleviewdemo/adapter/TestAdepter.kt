@@ -4,8 +4,8 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.databinding.ViewDataBinding
 import com.bumptech.glide.Glide
-import com.socket.customerecycleviewdemo.base.BaseBindingAdapter
-import com.socket.customerecycleviewdemo.base.BaseBindingViewHolder
+import com.chart.recycleview.base.BaseBindingAdapter
+import com.chart.recycleview.base.BaseBindingViewHolder
 import com.socket.customerecycleviewdemo.databinding.ItemListTestBinding
 
 

@@ -1,4 +1,4 @@
-package com.socket.customerecycleviewdemo.base
+package com.chart.recycleview.base
 
 
 import android.view.View

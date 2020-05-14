@@ -1,12 +1,12 @@
-package com.socket.customerecycleviewdemo.base
+package com.chart.recycleview.base
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.ViewDataBinding
 import androidx.recyclerview.widget.RecyclerView
-import com.socket.customerecycleviewdemo.custome.RecycleViewCustom
-import com.socket.customerecycleviewdemo.databinding.LoadMoreProgressBinding
+import com.chart.recycleview.custome.RecycleViewCustom
+import com.chart.recycleview.databinding.LoadMoreProgressBinding
 
 
 //Created by keshu odedara

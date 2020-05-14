@@ -1,4 +1,4 @@
-package com.socket.customerecycleviewdemo.custome
+package com.chart.recycleview.custome
 
 import android.util.Log
 import androidx.recyclerview.widget.LinearLayoutManager

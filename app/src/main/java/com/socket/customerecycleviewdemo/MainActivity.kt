@@ -7,18 +7,10 @@ import android.util.Log
 import android.view.View
 import android.widget.Toast
 import androidx.databinding.DataBindingUtil
-import com.socket.customerecycleviewdemo.custome.RecycleViewCustom
 import com.socket.customerecycleviewdemo.adapter.TestAdepter
-import com.socket.customerecycleviewdemo.base.BaseBindingAdapter
 import com.socket.customerecycleviewdemo.databinding.ActivityMainBinding
-import android.R.attr.name
-import android.util.Patterns
-import android.accounts.Account
 import android.accounts.AccountManager
-import androidx.core.app.ComponentActivity.ExtraData
-import androidx.core.content.ContextCompat.getSystemService
-import android.icu.lang.UCharacter.GraphemeClusterBreak.T
-
+import com.chart.recycleview.custome.RecycleViewCustom
 
 
 class MainActivity : AppCompatActivity(),  RecycleViewCustom.onSwipeToRefresh,
