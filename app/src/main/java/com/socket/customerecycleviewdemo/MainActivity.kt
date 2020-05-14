@@ -10,6 +10,7 @@ import androidx.databinding.DataBindingUtil
 import com.socket.customerecycleviewdemo.adapter.TestAdepter
 import com.socket.customerecycleviewdemo.databinding.ActivityMainBinding
 import android.accounts.AccountManager
+import com.chart.recycleview.base.BaseBindingAdapter
 import com.chart.recycleview.custome.RecycleViewCustom
 
 

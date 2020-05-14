@@ -10,6 +10,7 @@ import com.chart.recycleview.databinding.LoadMoreProgressBinding
 
 
 //Created by keshu odedara
+
 /*A Base class for Recyclerview adapter*/
 abstract class BaseBindingAdapter<T> : RecyclerView.Adapter<BaseBindingViewHolder>(),
     BaseBindingViewHolder.ClickListener {

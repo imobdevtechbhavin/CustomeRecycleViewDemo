@@ -38,7 +38,10 @@ dependencies {
     implementation 'com.intuit.ssp:ssp-android:1.0.6'
 
     implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.0.0'
-    implementation project(':recycleview')
+   // implementation project(':recycleview')
+    implementation 'com.github.imobdevtechbhavin:CustomeRecycleViewDemo:-SNAPSHOT'
+
+
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
     implementation 'com.github.bumptech.glide:glide:4.11.0'
     testImplementation 'junit:junit:4.12'
