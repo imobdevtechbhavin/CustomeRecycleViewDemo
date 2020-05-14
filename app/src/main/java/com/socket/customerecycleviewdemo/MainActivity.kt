@@ -11,6 +11,15 @@ import com.socket.customerecycleviewdemo.custome.RecycleViewCustom
 import com.socket.customerecycleviewdemo.adapter.TestAdepter
 import com.socket.customerecycleviewdemo.base.BaseBindingAdapter
 import com.socket.customerecycleviewdemo.databinding.ActivityMainBinding
+import android.R.attr.name
+import android.util.Patterns
+import android.accounts.Account
+import android.accounts.AccountManager
+import androidx.core.app.ComponentActivity.ExtraData
+import androidx.core.content.ContextCompat.getSystemService
+import android.icu.lang.UCharacter.GraphemeClusterBreak.T
+
+
 
 class MainActivity : AppCompatActivity(),  RecycleViewCustom.onSwipeToRefresh,
     RecycleViewCustom.onLoadMore, BaseBindingAdapter.ItemClickListener<Int?> {
@@ -46,7 +55,7 @@ class MainActivity : AppCompatActivity(),  RecycleViewCustom.onSwipeToRefresh,
     var testingList:ArrayList<Int?> = ArrayList()
 
     private fun init() {
-
+        GetAccountsName()
         val adepter = TestAdepter()
         binding.customView.setAdepter(adepter)
         binding.customView.swipeToRefreshItemClick=this
@@ -74,5 +83,15 @@ class MainActivity : AppCompatActivity(),  RecycleViewCustom.onSwipeToRefresh,
 
     }
 
+    fun GetAccountsName() {
+
+        try {
+       val account = AccountManager.get(this@MainActivity).accounts
+            Log.e("EMAILADDRESS", "--->" + account[0].name)
+        } catch (e: SecurityException) {
+            Log.e("-", "GetAccountsName: " + e.message)
+        }
+
+    }
 }
 
