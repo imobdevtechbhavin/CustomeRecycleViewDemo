@@ -19,6 +19,7 @@
   
   
 # .xml 
+{
    <com.chart.recycleview.custome.RecycleViewCustom
             android:id="@+id/customView"
             android:layout_width="match_parent"
@@ -29,3 +30,5 @@
             app:is_swipe_refresh_layout="true"
             app:rv_span_count="2"
             app:set_layout_manager="LinearLayoutManager" />
+	    
+}
