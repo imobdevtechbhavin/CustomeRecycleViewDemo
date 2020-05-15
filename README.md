@@ -19,8 +19,7 @@
   
   
 # .xml 
-{
-   <com.chart.recycleview.custome.RecycleViewCustom
+ 	  <com.chart.recycleview.custome.RecycleViewCustom
             android:id="@+id/customView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -31,4 +30,4 @@
             app:rv_span_count="2"
             app:set_layout_manager="LinearLayoutManager" />
 	    
-}
+
