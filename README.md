@@ -15,6 +15,7 @@
  # dependencies 
  	{
 	        implementation 'com.github.imobdevtechbhavin:CustomeRecycleViewDemo:1.0'
+		implementation 'androidx.recyclerview:recyclerview:1.1.0'
 	}
   
   
@@ -30,7 +31,7 @@
             app:rv_span_count="2"
             app:set_layout_manager="LinearLayoutManager" />
 	    
-#activty.kt
+# activty.kt
 	
 	class MainActivity : AppCompatActivity(),  RecycleViewCustom.onSwipeToRefresh,
     RecycleViewCustom.onLoadMore, BaseBindingAdapter.ItemClickListener<Int?> {
